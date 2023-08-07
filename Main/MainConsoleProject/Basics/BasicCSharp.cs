@@ -19,15 +19,18 @@ namespace MainConsoleProject.Basics
 
 
             ExplicitlyTyped();
-
+            ImplicitlyTyped();
 
         }
+
+
+
         /// <summary>
         /// Example of explicitly defined variables in c# with primitive types
         /// </summary>
         public void ExplicitlyTyped()
         {
-            Console.WriteLine("Example of explicitly defined variables in c# with primitive types\n");
+            Console.WriteLine("Example of EXPLICITLY defined variables in c# with primitive types\n");
             //booleans
             bool trueBooleanValue = true;
             bool falseBooleanValue = false;
@@ -94,7 +97,7 @@ namespace MainConsoleProject.Basics
             //decimal - is more precise than float and decimal
             decimal decimalValue = 1234.56789m;
             decimal decimalPrice = 39.99m;
-            Console.WriteLine("decimal value: "+decimalPrice);
+            Console.WriteLine("decimal value: " + decimalPrice);
 
             //char - represents one single character
             char letterA = 'A';
@@ -107,8 +110,33 @@ namespace MainConsoleProject.Basics
             string gretting = "Hey, Pedro";
             string initialLetter = "P";
             string clothesPrice = "The price is $39.99";
-            Console.WriteLine("Example text: "+clothesPrice);
+            Console.WriteLine("Example text: " + clothesPrice);
 
+            Console.WriteLine();
+        }
+        /// <summary>
+        /// Example of implicitly typed variables in c# using the reserved keyword "var"
+        /// </summary>
+        /// <exception cref="NotImplementedException"></exception>
+        private void ImplicitlyTyped()
+        {
+
+            Console.WriteLine("Example of IMPLICITLY defined variables in c# with primitive types\n");
+
+            var integerValue = 1; //this is going to be an integer
+            Console.WriteLine("Type inferred as integer: " + integerValue);
+
+            var floatValue = 12.5f;  //this is a float value
+            Console.WriteLine("Type inferred as float: " + floatValue);
+
+            var doubleValue = 12.5; //this is a double value
+            Console.WriteLine("Type inferred as double " + doubleValue);
+
+            var charValue = '#';
+            Console.WriteLine("Type inferred as char: " + charValue);
+
+            var stringValue = "This is a text";
+            Console.WriteLine("Type inferred as string: " + stringValue);
         }
     }
 }

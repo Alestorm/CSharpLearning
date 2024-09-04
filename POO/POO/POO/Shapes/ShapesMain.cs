@@ -21,6 +21,13 @@ namespace POO.Shapes
             rectangle.MultiplyScale(multiplier);
             rectangle.CalculateArea();
             rectangle.Diagonal();
+
+            Console.WriteLine("\nSHAPE: Circle");
+            Circle circle = new Circle(1, 2.5, "#222");
+            circle.CalculateArea();
+            circle.CalculateCircumference();
+            circle.PrintCircleInfo();
+
         }
     }
 }

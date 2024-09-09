@@ -3,6 +3,7 @@
 using POO.BankAccounts;
 using POO.LibraryClasses;
 using POO.Persons;
+using POO.Products_Categories;
 using POO.Shapes;
 using POO.Vehicles;
 
@@ -24,7 +25,11 @@ using POO.Vehicles;
 //bankAccounts.Main();
 
 
-Console.WriteLine("LIBRARY");
-LibraryMain library = new LibraryMain();
-library.Main();
+//Console.WriteLine("LIBRARY");
+//LibraryMain library = new LibraryMain();
+//library.Main();
+
+Console.WriteLine("PRODUCTS - CATEGORIES");
+ProductsCategories productsCategories = new ProductsCategories();
+productsCategories.Main();
 #endregion

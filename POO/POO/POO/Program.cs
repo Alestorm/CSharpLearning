@@ -2,6 +2,7 @@
 #region PERSONS
 using POO.BankAccounts;
 using POO.LibraryClasses;
+using POO.PersonalWallet;
 using POO.Persons;
 using POO.Products_Categories;
 using POO.Shapes;
@@ -29,7 +30,14 @@ using POO.Vehicles;
 //LibraryMain library = new LibraryMain();
 //library.Main();
 
-Console.WriteLine("PRODUCTS - CATEGORIES");
-ProductsCategories productsCategories = new ProductsCategories();
-productsCategories.Main();
+//Console.WriteLine("PRODUCTS - CATEGORIES");
+//ProductsCategories productsCategories = new ProductsCategories();
+//productsCategories.Main();
+
+Console.WriteLine("PERSONAL WALLET");
+PersonalWalletMain personalWalletMain = new PersonalWalletMain();
+personalWalletMain.Main();
+
+
+
 #endregion

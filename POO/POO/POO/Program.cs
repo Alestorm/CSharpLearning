@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 #region PERSONS
 using POO.BankAccounts;
+using POO.Employee_Department;
 using POO.LibraryClasses;
 using POO.PersonalWallet;
 using POO.Persons;
@@ -34,10 +35,12 @@ using POO.Vehicles;
 //ProductsCategories productsCategories = new ProductsCategories();
 //productsCategories.Main();
 
-Console.WriteLine("PERSONAL WALLET");
-PersonalWalletMain personalWalletMain = new PersonalWalletMain();
-personalWalletMain.Main();
+//Console.WriteLine("PERSONAL WALLET");
+//PersonalWalletMain personalWalletMain = new PersonalWalletMain();
+//personalWalletMain.Main();
 
-
+Console.WriteLine("EMPLOYEE - DEPARTMENT");
+Employee_Department employee_Department = new Employee_Department();
+employee_Department.Main();
 
 #endregion

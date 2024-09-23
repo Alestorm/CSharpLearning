@@ -7,6 +7,7 @@ using POO.PersonalWallet;
 using POO.Persons;
 using POO.Products_Categories;
 using POO.Shapes;
+using POO.TasksManager;
 using POO.Vehicles;
 
 //Console.WriteLine("SHAPES");
@@ -39,8 +40,11 @@ using POO.Vehicles;
 //PersonalWalletMain personalWalletMain = new PersonalWalletMain();
 //personalWalletMain.Main();
 
-Console.WriteLine("EMPLOYEE - DEPARTMENT");
-Employee_Department employee_Department = new Employee_Department();
-employee_Department.Main();
+//Console.WriteLine("EMPLOYEE - DEPARTMENT");
+//Employee_Department employee_Department = new Employee_Department();
+//employee_Department.Main();
 
+Console.WriteLine("TASK MANAGER");
+TaskManager taskManager = new TaskManager();
+taskManager.Main();
 #endregion

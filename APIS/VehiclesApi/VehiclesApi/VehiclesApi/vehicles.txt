@@ -1,0 +1,2 @@
+{"IdVehicle":1,"Brand":"Toyota","Model":"Corolla","Year":2023,"Color":"Blanco","EngineSize":1.6,"HorsePower":120,"FuelCapacity":50.0,"FuelType":"Gasolina","Mileage":25000.0,"Transmission":1,"NumberOfDoors":4,"IsElectric":false,"MaxSpeed":180.0,"Plate":"ABC-1234","IsInsured":true},
+{"IdVehicle":2,"Brand":"Honda","Model":"Civic","Year":2022,"Color":"Azul","EngineSize":2.0,"HorsePower":150,"FuelCapacity":55.0,"FuelType":"Diesel","Mileage":30000.0,"Transmission":0,"NumberOfDoors":5,"IsElectric":false,"MaxSpeed":190.0,"Plate":"DEF-5678","IsInsured":false}

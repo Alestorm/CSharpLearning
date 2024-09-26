@@ -1,0 +1,1 @@
+Api for managing products and categories, using a InMemory database with Entity Framework core

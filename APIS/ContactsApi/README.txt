@@ -1,0 +1,1 @@
+Api for saving contacts, including user registration and login, using mysql database with EFcore

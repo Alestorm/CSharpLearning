@@ -1,0 +1,1 @@
+Api for managing clients and bank accounts, using as database Mysql with EFCore

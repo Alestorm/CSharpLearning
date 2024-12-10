@@ -1,0 +1,1 @@
+API for managing a song list, favorites using mysql with efcore

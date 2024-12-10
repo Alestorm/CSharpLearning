@@ -58,7 +58,6 @@ namespace ClientAccountApi.Infrastructure.Repositories
             var accounts = _context.Accounts.Where(a => a.IdClient == idClient).ToList();
             return Result<List<Account>>.Success(accounts);
         }
-
         public Result<decimal> Transfer(decimal amount, string originAccount, string destinyAccount)
         {
             var origin = _context.Accounts.FirstOrDefault(a => a.AccountNumber.Equals(originAccount));

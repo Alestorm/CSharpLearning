@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SongList.Domain\SongList.Domain.csproj" />
+    <ProjectReference Include="..\SongList.Helpers\SongList.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
